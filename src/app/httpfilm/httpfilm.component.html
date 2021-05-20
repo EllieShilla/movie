@@ -1,0 +1,19 @@
+
+<div class="inpt">
+    <label id="lb1">Название</label>
+    <input [(ngModel)]="movie.title"/>
+</div>
+<div class="inpt">
+    <label id="lb2">Год</label>
+    <input [(ngModel)]="movie.year"/>
+</div>
+<div>
+    <button class="btn btn-default" (click)="getMove()">Поиск</button>
+</div>
+
+<div>
+    <h1>Название: {{commits["Title"]}}</h1>
+    <h1>Жанр: {{commits["Genre"]}}</h1>
+    <h1>Сюжет: {{commits["Plot"]}}</h1>
+<img src="{{commits['Poster']}}">
+</div>
